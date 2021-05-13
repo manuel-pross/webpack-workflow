@@ -1,0 +1,11 @@
+$primary: red;
+$danger: purple;
+
+@import "~bootstrap/scss/bootstrap-grid.scss";
+
+@import "_slick";
+@import "_slickTheme";
+
+@import "_fonts";
+@import "_variables";
+@import "testingImports";
