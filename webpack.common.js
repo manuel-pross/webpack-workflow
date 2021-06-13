@@ -20,6 +20,17 @@ module.exports = {
                 loader: "html-loader",
                 options: {
                     esModule: false,
+                    sources: {
+                        list: [
+                            // All default supported tags and attributes
+                            "...",
+                            {
+                                tag: "img",
+                                attribute: "data-src",
+                                type: "src",
+                            },
+                        ],
+                    },
                 },
             },
             {
